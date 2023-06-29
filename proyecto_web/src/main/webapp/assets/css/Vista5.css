@@ -1,0 +1,109 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+head{
+    background: #c4c4c4;
+}
+    
+
+.barra{
+    background: #c4c4c4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 10;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+    font-family: italic;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h3{
+    padding-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black
+}
+body{
+    background: #C5C5C5;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+
+
+.navbar{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+    color:#C5C5C5;
+    text-align: center;
+    font-family: italic;
+    box-shadow: 7px 13px 37px #c4c4c4;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background: red;
+}
+.navbar:hover{
+    color: black;
+}
+
+
+
+.form-login{
+    width: 450px;
+    height: 320px;
+    background: white;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 7px 13px 37px #c4c4c4;
+    padding: 20px 30px;
+    border-top: 10px solid red;
+    color: #000;
+
+
+}
+
+.form-login h5{
+    margin:0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+
+}
+
+.buttons {
+    width: 80%;
+    height: 40px;
+    background: red;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+    border-bottom-left-radius: center;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+border-radius: 500px;
+} 
+.buttons:hover{
+    background: white;
+    color: black;
+}

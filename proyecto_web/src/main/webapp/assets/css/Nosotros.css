@@ -1,0 +1,231 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+
+body{
+    text-align: left;
+    font-size: sans-serif;
+    font-family: arial;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.head{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    height: 60px;
+    background: rgb(34, 34, 34);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin: 10px;
+
+}
+
+.logo {
+    margin-left: 30px;
+
+}
+
+.logo a{
+    align-items: left;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: flex;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: rgb(116, 116, 116);
+}
+.boton{
+    margin-top: 13px;
+    display: flex;
+    padding: 6px 20px;
+    background: rgb(34, 34, 34);
+    color: white;
+    font-size: 20px;  
+    text-transform: uppercase;  
+    border: none;
+    cursor: pointer;
+
+}
+ .boton:hover{
+    background: rgb(116, 116, 116);
+}
+
+.links a{
+    display: block;
+    padding: 13px;
+}
+
+.links{
+    background:  rgb(34, 34, 34);
+    display: none;
+}
+
+
+.links:hover{
+    background: rgb(34, 34, 34);
+}
+
+.desplegable:hover .links{
+    display: block;
+}
+
+
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.header {
+    height: 50vh !important;
+    background-image: url(img/hi.jpg) no-repeat center;
+}
+
+.header .tittle {
+    margin-left: 15px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.header p{
+   margin-left: 15px;
+    margin-bottom: 40px;
+    font-size: 25px;
+
+    
+    
+}
+
+.btn{
+    
+    display: online-block;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border: 2px solid rgb(116, 116, 116); 
+    color:  white;
+    text-decoration: none;
+    background:rgb(116, 116, 116) ;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+.content {
+    height: 58vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: right;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;  
+}
+
+.sau {
+    padding: 30px;
+    background: rgb(148, 147, 147);
+}
+
+.box-cointainer{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+
+.box-cointainer .box{
+    height: 12rem;
+    width: 17rem;
+    background: #535353;
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgb(125, 122, 122);
+    margin: 2rem;
+    color: white;
+
+}
+
+.box-cointainer .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: rgb(116, 116, 116); 
+
+}
+
+
+
+.sau .tittle{
+color: white;
+text-align: center;
+font-size: 30px;
+
+}
+.sau p{
+    color: white;
+    text-align: center;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.sau h3{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.sau p{
+    padding: 0 15px;
+    font-size: 16px;
+}
